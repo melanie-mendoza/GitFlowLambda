@@ -1,0 +1,114 @@
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? A process of providing meaning to your content.
+    2. What is HTML used for? used to create electronic documents (called pages) that are displayed on the World Wide Web.
+    3. What is an attribute and where do we put it? An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them.
+    4. What is the h1 tag used for? How many times should I use it on a page? Main Heading. Once.
+    5. Name two tags that have required attributes: anchor, img
+    6. What do we put in the head of our HTML document? Meta data
+    7. What is an id? The CSS id Selector The id selector uses the id attribute of an HTML element to select a specific element.
+    8. What elements can I add an id to?  The id of an element is unique within a page, so the id selector is used to select one unique element
+    9. How many times can I use the same id on a page? Once
+    10. What is a class? The HTML class attribute is used to define equal styles for elements with the same class name.
+    11. What elements can I add a class to? Any
+    12. How many times can I use the same class on a page? Several
+    13. How do I get my link to open in a new tab? href
+    14. What is the alt attribute used for? The alt attribute provides alternative information for an image if a user for some reason cannot view it 
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. ... The <div> tag defines a division or a section in an HTML document. The <div> tag is used to group block-elements to format them with CSS.
+    17. What is CSS used for? Styles
+    18. How to we select an element? Example - every h2 on the page h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS? to be able to style the elements in that class.
+    21. How do we select a p element with a single class of “human””?
+    22. What is a parent child selector? When would this be useful? Inheritance
+    23. How do you select all links within a div with the class of sidebar? .sidebar{}
+    24. What is a pseudo selector? A Pseudo class in CSS is used to define the special state of an element. It can be combined with a CSS selector to add an effect to existing elements based on their states. For Example, changing the style of an element when the user hovers over it, or when a link is visited. All of these can be done using Pseudo Classes in CSS.
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? h2 {text-transform: uppercase;} 
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {border: 1px dotted black;}
+    29. How do I select everything on the page? universal selector *{}
+    30. How do I write a comment in CSS? <!--
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm; it removes the file without warning and permanently.
+    34. Why should I use version control? to collaborate with other web developers.
+    35. How often should I commit to github? as often as possible
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 
+       GitHub Flow (Lambda School):
+From TK:
+Click on Project
+Click on Project Name - (This takes you to GitHub)
+
+On GitHub:
+FORK (make sure fork goes to your firstname-lastname)
+CLONE (copy address, open Terminal)
+
+On Terminal:
+Make a directory for repository named pt13. (To be done ONCE only.) 
+mkdir pt13     
+Go into new directory:
+cd pt13
+Clone project by pasting address from GitHub:
+git clone + (paste address)
+Go into or Make changes on project:
+cd nameofproject [name is after the last slash]
+Checkout a branch   (Always check out a branch)
+git checkout -b firstname-lastname
+Open up code into Visual Studio Code
+code .
+On VSC:
+Do Initial Commit:
+Click on ReadMe.md
+Space out 1st line.
+Minimize VSC
+Go back to Terminal
+
+On Terminal:
+Check status
+git status
+ADD changes
+git add .               (. means ALL)
+COMMIT
+git commit -m “initial commit”
+PUSH to GitHub
+git push origin branch-name (firstname-lastname)
+On GitHub:
+Click on Compare & Pull Request
+Change base repository to your branch
+Add TL as collaborator
+Go to Settings
+Type in TL’s name
+You may have to wait until invitation is accepted by your TL
+Add TL as Reviewer (right-hand side)        
+Create PULL Request   
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? -  Inline elements allow elements to be nested within other elements without disrupting the flow of content.
+        They take up the space of their content, can be on the same line, and height/width properties are disabled. Block Elements take up the height of content, width of page by default. We can customize the height and width
+        They start on new lines. 
+
+
+    2. What happens when an element is positioned absolutely? An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Use display: block;
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+         display: block = <p>; <h1-6>; <nav>
+         display: inline = <a> <span>
+         display: inline-block = <img>
+
+    5. In your own words, explain the box model. What is the fix for the box model?  It's how each element relates and are positioned in the page, in boxes. Box-sizing allows us to overcome some of the shortcomings of the mox model.
+
+
+
+
+
+   --> 
